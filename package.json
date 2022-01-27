@@ -9,5 +9,9 @@
   },
   "scripts": {
     "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gjb7598189/auto-release-demo.git"
   }
 }
