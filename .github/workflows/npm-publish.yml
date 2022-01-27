@@ -18,6 +18,7 @@ jobs:
           node-version: 17
           registry-url: https://registry.npmjs.org
       - run: npm install
+      - run: npm config set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN
       - run: npm whoami
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
