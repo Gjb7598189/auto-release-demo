@@ -1,1 +1,3 @@
-export const utiles = {}
+export const utiles = {
+    getquery() {}
+}
