@@ -1,3 +1,5 @@
 export const utiles = {
-    getquery() {}
+    getquery() {
+        console.log('111')
+    }
 }
