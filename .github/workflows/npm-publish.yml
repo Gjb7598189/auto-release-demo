@@ -21,5 +21,6 @@ jobs:
       - run: git config user.name Gjb7598189
       - run: git config user.email 1171772585@qq.com
       - run: npm run release
+      - run: npm publish
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
