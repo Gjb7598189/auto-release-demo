@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      -run: cat ~/.npmrc
+      - run: cat ~/.npmrc
       - run: npm publish
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
